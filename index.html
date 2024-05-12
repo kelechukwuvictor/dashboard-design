@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <section class="section">
+        <div class="dash-profile" >
+            <span class="open-btn" id="open-btn" onclick="openMenu()">&#9776;</span>
+            <div class="profile">
+                <!-- logo section -->
+                <div class="logo">
+                    <h1>Victor<strong>UX</strong></h1>
+                </div>
+                <!-- Admin profile section -->
+                <div class="admin-profile">
+                    <div class="admin-img">
+                        <img src="../assets/ava.png" alt="">
+                    </div>
+
+                    <div class="admin-name">
+                        <span><h3>Victor Kc</h3></span>
+                        <span>Admin</span>
+                    </div>
+                </div>
+                <!-- Dashboard details section -->
+                <div class="dash">
+                    <h3><i class="fa fa-home"></i> Dashboard <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <!-- Dashboard links section -->
+                <div class="list-sec">
+                    <ul>
+                        <li>Application</li>
+                        <li>E-commerce-V-1</li>
+                        <li>E-commerce-V-2</li>
+                        <li>Project Management</li>
+                        <li>Banking</li>
+                        <li>Analytics</li>
+                        <li>Crypto</li>
+                    </ul>
+                </div>
+                <div class="pages-sec">
+                    <div>
+                        <h3>Pages</h3>
+                    </div>
+                    <ul>
+                        <li><i class="fa fa-user"></i> User Profile</li>
+                        <li><i class="fa fa-address-book"></i> Account</li>
+                        <li>Authentications</li>
+                        <li>Social</li>
+                        <li>Blog</li>
+                        <li>FAQs</li>
+                        <li><i class="fa fa-money"></i> Pricing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="dash-states">
+            <div class="top-links">
+                <div class="top-left">
+                    <a href="">Dashboard</a>
+                    <a href="">Pages</a>
+                    <a href="">Apps</a>
+                    <a href="">Layouts</a>
+                    <a href="">Help</a>
+                </div>
+
+                <div class="top-right">
+                    <span class="open-btn" id="open-btn" onclick="openMenu()">&#9776;</span>
+                    <span><i class="fa fa-bell"></i></span>
+                    <span><i class="fa fa-comments"></i></span>
+                    <span><i class="fa fa-user-o"></i></span>
+                    <span><img src="../assets/ava.png" alt=""></span>
+                </div>
+            </div>
+
+            <!-- states section -->
+
+            <div class="main-states">
+                <div class="main-head">
+                    <div class="head">
+                        <h3>E-commerce</h3>
+                        <h4 class="greeting">Welcome Victor</h4>
+                        <h5>Dashboard <i class="fa fa-chevron-right"></i> E-commerce</h5>
+                    </div>
+
+                    <div class="admin-btn">
+                        <span><button type="button" class="mg-btn">Manage sales</button></span>
+                        <span><button type="button" class="add-btn">Add products</button></span>
+                    </div>
+                </div>
+
+                <div class="states-summary">
+                    <div class="order">
+                        <div class="ord">
+                            <span><i class="fa fa-shopping-cart"></i></span>
+                            <span><strong>9,789</strong></span>
+                            <span>total Orders</span>
+                        </div>
+                    </div>
+                    <div class="pds">
+                        <div class="ord">
+                            <span> <i class="fa fa-bar-chart"></i></span>
+                            <span><strong>130K</strong></span>
+                            <span>Products</span>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="ord">
+                            <span><i class="fa fa-money"></i></span>
+                            <span><strong>$20,367</strong></span>
+                            <span>Weekly Sales</span>
+                        </div>
+                    </div>
+                    <div class="pds">
+                        <div class="ord">
+                            <span><i class="fa fa-bank"></i></span>
+                            <span><strong>89%</strong></span>
+                            <span>refunds</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- table section -->
+
+                <div class="table-dtl">
+                    <div class="popular-product">
+                        <div class="pp-head">
+                            <h3>popular-product <span></span></h3>
+                        </div>
+            
+                        <div class="table-states-sec">
+                            <table>
+                                <thead>
+                                    <tr class="tr">
+                                        <th class="thead">Products Name</td>
+                                            <div class="hr"></div>
+                                        <th>Price</td>
+                                            <div class="hr"></div>
+                                        <th>Sales</td>
+                                            <div class="hr"></div>
+                                        <th>Status</td>
+                                            <div class="hr"></div>
+                                    </tr>
+                                </thead>
+                                <thead>
+                                    <tbody class="tbody">
+                                        <tr>
+                                            <td>
+                                                <span><img src="../assets/mouse.webp" alt=""></span>
+                                                <span>Mouse</span>
+                                            </td>
+                                            <td>$5.09</td>
+                                            <td>50.205</td>
+                                            <td class="stock-btn">
+                                                <button class="in-btn">In stock</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span><img src="../assets/mcharger.webp" alt=""></span>
+                                                <span>M Charger</span>
+                                            </td>
+                                            <td>$3.09</td>
+                                            <td>70.205</td>
+                                            <td class="stock-btn">
+                                                <button class="in-btn">In stock</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span><img src="../assets/imac.webp" alt=""></span>
+                                                <span>IMac</span>
+                                            </td>
+                                            <td>$20.09</td>
+                                            <td>20.205</td>
+                                            <td class="out-ofstock-btn">
+                                                <button class="out-btn">Out of stock</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span><img src="../assets/game.webp" alt=""></span>
+                                                <span>Game Pad</span>
+                                            </td>
+                                            <td>$7.09</td>
+                                            <td>10.205</td>
+                                            <td class="coming-soon">
+                                                <button class="c-soon">Coming soon</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span><img src="../assets/camera.webp" alt=""></span>
+                                                <span>Camera</span>
+                                            </td>
+                                            <td>$40.09</td>
+                                            <td>30.205</td>
+                                            <td class="out-ofstock-btn">
+                                                <button class="out-btn">Out of stock</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="latest-product">
+                       <div class="latest">
+                            <div class="latest-dtl">
+                                <div class="ltp-head">
+                                    <h3>Latest <span></span></h3>
+                                    <p>&#8942;</p>
+                                </div>
+        
+                                <!-- <img src="../assets/shoe.avif" alt=""> -->
+                                <div class="shoe-con">
+                                    <div class="con-span">
+                                        <div>
+                                            <span>Shoe</span>
+                                            <span>Nike</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa fa-chevron-right"></i>  
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+
+                        <div class="goals-sec">
+                            <div class="goal-content">
+                                <span>Goals</span>
+                                <span class="goal-span">$9,000/ <strong>$10,000</strong></span>
+                                <span class="last"><i class="fa fa-line-chart"></i> 10% increase</span>
+                            </div>
+
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="mobile">
+
+        <div class="mobile-pro" id="toggleNav">
+            <!-- logo section -->
+            
+            <div class="logo">
+                <h1>Victor<strong>UX</strong></h1>
+            </div>
+            <span class="close-btn" id="close-Btn" onclick="closeNav()">&times;</span>
+
+            <!-- Admin profile section -->
+            <div class="admin-profile">
+                <div class="admin-img">
+                    <img src="../assets/ava.png" alt="">
+                </div>
+
+                <div class="admin-name">
+                    <span><h3>Victor Kc</h3></span>
+                    <span>Admin</span>
+                </div>
+            </div>
+            <!-- Dashboard details section -->
+            <div class="dash">
+                <h3><i class="fa fa-home"></i> Dashboard <i class="fa fa-chevron-down"></i></h3>
+            </div>
+            <!-- Dashboard links section -->
+            <div class="list-sec">
+                <ul>
+                    <li>Application</li>
+                    <li>E-commerce-V-1</li>
+                    <li>E-commerce-V-2</li>
+                    <li>Project Management</li>
+                    <li>Banking</li>
+                    <li>Analytics</li>
+                    <li>Crypto</li>
+                </ul>
+            </div>
+            <div class="pages-sec">
+                <div>
+                    <h3>Pages</h3>
+                </div>
+                <ul>
+                    <li><i class="fa fa-user"></i> User Profile</li>
+                    <li><i class="fa fa-address-book"></i> Account</li>
+                    <li>Authentications</li>
+                    <li>Social</li>
+                    <li>Blog</li>
+                    <li>FAQs</li>
+                    <li><i class="fa fa-money"></i> Pricing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Dashboard concept by Victor kelechukwu</h3>
+        <p>Just as we keep making more researchs and engaging in more complex designs, may God see me through in this Tech journey</p>
+        <span>&copy; 2024 Dashboard design. All rights reserved</span> <br>
+        <span>Contact <i class="fa fa-phone"></i> 08087824982</span>
+        <div class="media-icon">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-github"></i></a>
+            <a href=""><i class="fa fa-youtube"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="./dashboard.js"></script>
+</body>
+</html>
